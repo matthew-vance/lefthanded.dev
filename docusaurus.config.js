@@ -71,9 +71,10 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Wiki",
           },
           { to: "/blog", label: "Blog", position: "left" },
+          { to: "/about", label: "About", position: "left" },
           {
             href: "https://github.com/matthew-vance/lefthanded.dev",
             label: "GitHub",
@@ -91,6 +92,10 @@ const config = {
           {
             label: "Twitter",
             href: "https://twitter.com/lefthandeddev",
+          },
+          {
+            label: "About",
+            to: "/about",
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} lefthanded.dev. Built with Docusaurus.`,
