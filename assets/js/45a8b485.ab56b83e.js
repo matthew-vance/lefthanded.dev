@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklefthanded_dev=self.webpackChunklefthanded_dev||[]).push([[8438],{922:e=>{e.exports=JSON.parse('{"permalink":"/lefthanded.dev/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
