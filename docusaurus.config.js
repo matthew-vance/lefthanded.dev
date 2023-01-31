@@ -7,14 +7,14 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "lefthanded.dev",
-  tagline: "I am a left-handed software engineer.",
+  tagline: "Notes from a left-handed software engineer.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
   url: "https://matthew-vance.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/lefthanded.dev/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
