@@ -1,17 +1,7 @@
 ---
-title: NodeJS
-tags: [nodejs, node]
+title: Safely Reading Environment Variables in NodeJS
+tags: [nodejs, javascript, typescript]
 ---
-
-NodeJS is an open-source Javascript runtime.
-
-## Resources
-
-- [Official docs](https://nodejs.org/en/docs/)
-
-## Notes
-
-### Safely Reading Environment Variables
 
 Since variables read from `process.env` might not be defined at runtime it is important to verify them prior to referencing them in code.
 
@@ -24,7 +14,7 @@ const someClientId = process.env.SOME_CLIENT_ID;
 
 :::
 
-#### With [Zod](https://zod.dev/)
+## With [Zod](https://zod.dev/)
 
 ```typescript
 import { z } from "zod";
@@ -49,7 +39,7 @@ const env = envSchema.parse(process.env);
 const someClientId = env.SOME_CLIENT_ID;
 ```
 
-#### With [Envalid](https://github.com/af/envalid)
+## With [Envalid](https://github.com/af/envalid)
 
 ```typescript
 import { cleanEnv, str } from "envalid";
