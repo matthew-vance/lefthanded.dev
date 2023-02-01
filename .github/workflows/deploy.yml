@@ -13,6 +13,11 @@ jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
+    env:
+      ALGOLIA_APP_ID: ${{secrets.ALGOLIA_APP_ID}}
+      ALGOLIA_INDEX_NAME: ${{secrets.ALGOLIA_INDEX_NAME}}
+      ALGOLIA_SEARCH_API_KEY: ${{secrets.ALGOLIA_SEARCH_API_KEY}}
+
     steps:
       - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2
