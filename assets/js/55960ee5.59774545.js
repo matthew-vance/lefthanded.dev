@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklefthanded_dev=self.webpackChunklefthanded_dev||[]).push([[121],{8070:e=>{e.exports=JSON.parse('[{"label":"git","permalink":"/wiki/tags/git","count":1}]')}}]);
