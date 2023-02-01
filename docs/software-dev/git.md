@@ -4,7 +4,7 @@ description: Git tips and tricks.
 tags: [git]
 ---
 
-Git is an open source distributed version control system.
+Git is an open-source distributed version control system.
 
 ## Resources
 
