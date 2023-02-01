@@ -1,13 +1,15 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+require("dotenv").config();
+
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "lefthanded.dev",
-  tagline: "Notes from a left-handed software engineer.",
+  tagline: "Notes from a left handed software engineer.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -107,6 +109,11 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      algolia: {
+        appId: process.env.ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_SEARCH_API_KEY,
+        indexName: process.env.ALGOLIA_INDEX_NAME,
       },
     }),
 };
