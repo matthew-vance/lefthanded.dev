@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklefthanded_dev=self.webpackChunklefthanded_dev||[]).push([[909],{7047:e=>{e.exports=JSON.parse('{"label":"nodejs","permalink":"/wiki/tags/nodejs","allTagsPath":"/wiki/tags","count":1,"items":[{"id":"software-dev/nodejs","title":"NodeJS","description":"NodeJS is an open-source Javascript runtime.","permalink":"/wiki/software-dev/nodejs"}]}')}}]);
