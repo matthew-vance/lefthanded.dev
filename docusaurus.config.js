@@ -41,6 +41,7 @@ const config = {
         docs: {
           routeBasePath: "wiki",
           showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
           sidebarPath: require.resolve("./sidebars.js"),
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/matthew-vance/lefthanded.dev/tree/main/",
