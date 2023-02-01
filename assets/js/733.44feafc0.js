@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklefthanded_dev=self.webpackChunklefthanded_dev||[]).push([[733],{4733:(e,d,h)=>{h.r(d)}}]);
