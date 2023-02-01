@@ -39,15 +39,19 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: "wiki",
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
           sidebarPath: require.resolve("./sidebars.js"),
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/matthew-vance/lefthanded.dev/tree/main/",
         },
-        blog: {
-          showReadingTime: true,
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/matthew-vance/lefthanded.dev/tree/main/",
-        },
+        blog: false,
+        // blog: {
+        //   showReadingTime: true,
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl: "https://github.com/matthew-vance/lefthanded.dev/tree/main/",
+        // },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -69,11 +73,11 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "intro",
+            docId: "index",
             position: "left",
             label: "Wiki",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          // { to: "/blog", label: "Blog", position: "left" },
           { to: "/about", label: "About", position: "left" },
           {
             href: "https://github.com/matthew-vance/lefthanded.dev",
