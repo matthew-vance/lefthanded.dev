@@ -1,4 +1,4 @@
-# lefthanded.dev
+# [lefthanded.dev](https://lefthanded.dev)
 
 [![Deploy](https://github.com/matthew-vance/lefthanded.dev/actions/workflows/deploy.yml/badge.svg)](https://github.com/matthew-vance/lefthanded.dev/actions/workflows/deploy.yml)
 
